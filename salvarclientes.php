@@ -13,11 +13,47 @@
     $cpfCliente = $_GET["cpf"];
     $telefoneCliente = $_GET["telefone"];
     $emailCliente = $_GET["email"];
-    echo "nome: " . $nomeCliente . "<br>";
-    echo "cpf: " . $cpfCliente . "<br>";
-    echo "telefone: " . $telefoneCliente . "<br>";
-    echo "email" . $emailCliente . "<br>";
 ?>
+
+
+<table border="1">
+	<tr>
+		<td>
+			<b>Nome</b>
+		</td>
+		
+		<td>
+			<b>CPF</b>
+		</td>
+		
+		<td>
+			<b>Telefone</b>
+		</td>
+		
+		<td>
+			<b>E-Mail</b>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			<?php echo $nomeCliente; ?>
+		</td>
+		
+		<td>
+			<?php echo $cpfCliente; ?>
+		</td>
+		
+		<td>
+			<?php echo $telefoneCliente; ?>
+		</td>
+		
+		<td>
+			<?php echo $emailCliente; ?>
+		</td>
+	</tr>
+</table>
+
 <style>
         body{
             color:white; 
@@ -27,4 +63,3 @@
     </style>
 </body>
 </html>
-    
