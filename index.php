@@ -18,9 +18,7 @@
         <input type="number" name="telefone" id="telefone"><br>
         <label for="email">Email</label>
         <input type="email" name="email" id="email"><br>
-
         <input type="submit" name="milior" value="salvar milior"><br>
-
     </form>
     <style>
         body{
